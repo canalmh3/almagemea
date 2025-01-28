@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vou desenhar sua alma gêmea - Lisa Aura</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://i.postimg.cc/0QQJrwWJ/image.png">
+    <meta name="description" content="Este é meu site oficial! Cuidado com os imitadores! Amor e Luz - Lisa Aura. Usarei Minhas Habilidades Sensitivas Para Desenhar Sua Alma Gêmea Predestinada. JUNTE-SE ÀS 23.873 PESSOAS QUE JÁ VIRAM O ROSTO DE SUA ALMA GÊMEA COM A MINHA AJUDA!">
+    <style>
+        body {
+            font-family: 'Merriweather', sans-serif;
+        }
+
+        .progress-bar {
+            animation: progress 2.5s ease-in-out forwards;
+            box-shadow: 0 2px 4px rgba(239, 68, 68, 0.3);
+        }
+
+        @keyframes progress {
+            from { width: 0%; }
+            to { width: 90%; }
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.9; }
+            50% { opacity: 1; }
+            100% { opacity: 0.9; }
+        }
+        
+        .animate-pulse {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <!-- Seção "Quase Completo..." com barra de progresso -->
+    <div class="max-w-2xl mx-auto px-4 py-4 text-center">
+        <div class="mb-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-400 mb-4 animate-pulse">
+                Quase Completo...
+            </h2>
+            <div class="w-full bg-gray-200 rounded-full h-4 mb-2 mx-auto max-w-xs">
+                <div class="progress-bar h-4 rounded-full bg-gradient-to-r from-red-400 to-red-600 transition-all duration-3000 ease-out" style="width: 0%">
+                </div>
+            </div>
+            <p class="text-2xl text-gray-900 leading-relaxed">
+                Apenas responda algumas perguntas simples para que eu possa desenhar seu parceiro ideal com precisão…
+            </p>
+        </div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="max-w-2xl mx-auto p-2">
+        <form class="space-y-6" id="soulmate-form" novalidate>
+            <!-- Interesse -->
+            <div class="space-y-2">
+                <label for="interest" class="block text-xl font-bold text-gray-800">Em quem você está interessado?</label>
+                <select id="interest" name="interest" class="w-full p-3 border-2 border-gray-300 rounded-lg text-lg" required>
+                    <option value="" disabled selected>Toque para selecionar seu interesse</option>
+                    <option value="homens">Eu gosto de homens</option>
+                    <option value="mulheres">Gosto de mulheres</option>
+                    <option value="ambos">Gosto de ambos</option>
+                </select>
+            </div>
+
+            <!-- Faixa etária -->
+            <div class="space-y-2">
+                <label for="age-range" class="block text-xl font-bold text-gray-800">Selecione sua faixa etária</label>
+                <select id="age-range" name="age-range" class="w-full p-3 border-2 border-gray-300 rounded-lg text-lg" required>
+                    <option value="" disabled selected>Toque para selecionar sua faixa etária</option>
+                    <option value="18-34">Entre 18 e 34</option>
+                    <option value="35-54">Entre 35 e 54</option>
+                    <option value="55+">Mais de 55 anos</option>
+                </select>
+            </div>
+
+            <!-- Etnia -->
+            <div class="space-y-2">
+                <label for="ethnicity" class="block text-xl font-bold text-gray-800">Por favor, escolha sua etnia preferida para o desenho:</label>
+                <select id="ethnicity" name="ethnicity" class="w-full p-3 border-2 border-gray-300 rounded-lg text-lg" required>
+                    <option value="" disabled selected>Toque para selecionar sua etnia preferida</option>
+                    <option value="branca">Branca</option>
+                    <option value="negra">Negra</option>
+                    <option value="asiatica">Asiática</option>
+                    <option value="latina">Latina</option>
+                    <option value="mista">Mista</option>
+                </select>
+            </div>
+
+            <!-- Signo -->
+            <div class="space-y-2">
+                <label for="zodiac-sign" class="block text-xl font-bold text-gray-800">Qual é o seu signo do zodíaco?</label>
+                <select id="zodiac-sign" name="zodiac-sign" class="w-full p-3 border-2 border-gray-300 rounded-lg text-lg" required>
+                    <option value="" disabled selected>Toque para selecionar seu signo</option>
+                    <option value="aries">Áries</option>
+                    <option value="touro">Touro</option>
+                    <option value="gemeos">Gêmeos</option>
+                    <option value="cancer">Câncer</option>
+                    <option value="leão">Leão</option>
+                    <option value="virgem">Virgem</option>
+                    <option value="libra">Libra</option>
+                    <option value="escorpiao">Escorpião</option>
+                    <option value="sagitario">Sagitário</option>
+                    <option value="capricornio">Capricórnio</option>
+                    <option value="aquario">Aquário</option>
+                    <option value="peixes">Peixes</option>
+                </select>
+            </div>
+
+            <!-- Nome -->
+            <div class="space-y-2">
+                <label for="name" class="block text-xl font-bold text-gray-800">Qual é o seu nome?</label>
+                <input type="text" id="name" name="name" placeholder="Seu primeiro nome aqui..." class="w-full p-3 border-2 border-gray-300 rounded-lg text-lg" required>
+            </div>
+
+            <!-- Email -->
+            <div class="space-y-2">
+                <label for="email" class="block text-xl font-bold text-gray-800">Para qual e-mail devo enviar seu desenho?</label>
+                <input type="email" id="email" name="email" placeholder="Seu endereço de e-mail aqui..." class="w-full p-3 border-2 border-gray-300 rounded-lg text-lg" required>
+            </div>
+
+            <p class="text-red-500">IMPORTANTE: Ao pagar pelo seu pedido, por favor, certifique-se de usar o mesmo endereço de email fornecido acima.</p>
+
+            <!-- Botão de Envio -->
+            <div class="mt-8 text-center">
+                <button type="submit" class="bg-red-500 text-white py-3 px-8 rounded-lg text-xl font-bold hover:bg-red-600 transition duration-300 w-full">
+                    COMECE A DESENHAR MEU PARCEIRO IDEAL →
+                    <p class="text-lg text-gray-300">Eu agora vou me conectar com sua energia</p>
+                </button>
+            </div>
+        </form>
+
+        <!-- Nota do Email -->
+        <div class="mt-6 text-sm text-gray-600 text-center py-4">
+            <p class="mt-2">🔒 Suas informações estão seguras e nunca enviaremos spam.</p>
+        </div>
+    </div>
+
+    <!-- Script Utms -->
+    <script>
+        // Função para adicionar os parâmetros aos links
+        function adicionarParametrosAosLinks() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const links = document.querySelectorAll('a');
+
+            links.forEach(link => {
+                const href = new URL(link.href);
+                urlParams.forEach((value, key) => {
+                    href.searchParams.set(key, value);
+                });
+                link.href = href.toString();
+            });
+        }
+
+        // Chamar a função ao carregar a página
+        document.addEventListener('DOMContentLoaded', adicionarParametrosAosLinks);
+    </script>
+
+    <script>
+        document.getElementById('soulmate-form').addEventListener('submit', function(event) {
+            const emailInput = document.getElementById('email');
+            const nameInput = document.getElementById('name');
+
+            if (!emailInput.checkValidity()) {
+                alert('Por favor, insira um e-mail válido.');
+                emailInput.focus();
+                event.preventDefault(); // Evitar o envio do formulário
+                return;
+            }
+
+            // Construindo a URL de redirecionamento
+            const currentUrl = new URL(window.location.href);
+            const newUrl = new URL('../03', currentUrl.origin);
+            newUrl.searchParams.append('name', nameInput.value);
+            newUrl.searchParams.append('email', emailInput.value);
+
+            // Adicionando os parâmetros da URL atual
+            const currentParams = new URLSearchParams(window.location.search);
+            currentParams.forEach((value, key) => {
+                newUrl.searchParams.append(key, value);
+            });
+
+            // Redirecionando para a nova URL
+            window.location.href = newUrl.toString();
+            event.preventDefault(); // Evitar o envio do formulário
+        });
+    </script>
+</body>
+</html>
