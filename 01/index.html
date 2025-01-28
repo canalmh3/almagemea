@@ -84,7 +84,7 @@
 
         <!-- Botão CTA -->
         <div class="mt-4 text-center">
-            <a href="#cta" class="bg-red-500 text-white py-3 md:px-8 md:py-4 rounded-lg text-2xl font-bold hover:bg-red-600 transition duration-300 whitespace-normal text-wrap inline-block">
+            <a href="../02" class="bg-red-500 text-white py-3 md:px-8 md:py-4 rounded-lg text-2xl font-bold hover:bg-red-600 transition duration-300 whitespace-normal text-wrap inline-block">
                 SIM, QUERO O DESENHO<br class="hidden md:inline"> DA MINHA ALMA GÊMEA →
             </a>
         </div>
@@ -110,7 +110,7 @@
 
         <!-- Botão CTA -->
         <div class="mt-4 text-center">
-            <a href="#cta" class="bg-red-500 text-white py-3 md:px-8 md:py-4 rounded-lg text-2xl font-bold hover:bg-red-600 transition duration-300 whitespace-normal text-wrap inline-block">
+            <a href="../02" class="bg-red-500 text-white py-3 md:px-8 md:py-4 rounded-lg text-2xl font-bold hover:bg-red-600 transition duration-300 whitespace-normal text-wrap inline-block">
                 SIM, QUERO O DESENHO<br class="hidden md:inline"> DA MINHA ALMA GÊMEA →
             </a>
         </div>
@@ -211,13 +211,12 @@
             </div>
         </div>
 
-        <!-- Botão CTA modificado -->
-<div class="mt-4 text-center">
-    <button onclick="openModal()" 
-            class="bg-red-500 text-white py-3 md:px-8 md:py-4 rounded-lg text-2xl font-bold hover:bg-red-600 transition duration-300 whitespace-normal text-wrap inline-block">
-        SIM, QUERO O DESENHO<br class="hidden md:inline"> DA MINHA ALMA GÊMEA →
-    </button>
-</div>
+       <!-- Botão CTA -->
+       <div class="mt-4 text-center">
+        <a href="../02" class="bg-red-500 text-white py-3 md:px-8 md:py-4 rounded-lg text-2xl font-bold hover:bg-red-600 transition duration-300 whitespace-normal text-wrap inline-block">
+            SIM, QUERO O DESENHO<br class="hidden md:inline"> DA MINHA ALMA GÊMEA →
+        </a>
+    </div>
     </div>
 </section>
 <section class="bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto">
@@ -335,164 +334,27 @@
         </p>
     </div>
 </footer>
-<!-- Modal -->
-<div id="modal" class="fixed inset-0 z-50 hidden bg-black bg-opacity-50 flex items-center justify-center">
-    <div class="bg-white rounded-lg shadow-lg w-full max-w-2xl overflow-hidden">
-        <!-- Cabeçalho do modal -->
-        <div class="flex justify-end p-4">
-            <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-            </button>
-        </div>
-
-        <!-- Conteúdo do modal -->
-        <div class="p-2">
-            <!-- Barra de progresso -->
-            <div class="bg-gray-200 rounded-full h-4 mb-6">
-                <div class="bg-red-500 h-4 rounded-full" style="width: 75%;">
-                    <span class="text-xs text-white pl-2">Quase Completo...</span>
-                </div>
-            </div>
-
-            <!-- Texto introdutório -->
-            <p class="text-gray-700 mb-6">
-                Apenas responda algumas perguntas simples para que eu possa desenhar seu parceiro ideal com precisão…
-            </p>
-
-            <!-- Formulário -->
-            <form class="space-y-4">
-                <!-- Campo de interesse -->
-                <div>
-                    <label class="block text-gray-700 mb-2">Em quem você está interessado?</label>
-                    <div class="relative">
-                        <select class="w-full px-4 py-2 border border-gray-300 rounded-lg appearance-none">
-                            <option>Toque para selecionar seu interesse</option>
-                            <option value="men">Eu gosto de homens</option>
-                            <option value="women">Gosto de mulheres</option>
-                            <option value="both">Gosto de ambos</option>
-                        </select>
-                        <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
-                            <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Campo de faixa etária -->
-                <div>
-                    <label class="block text-gray-700 mb-2">Selecione sua faixa etária</label>
-                    <div class="relative">
-                        <select class="w-full px-4 py-2 border border-gray-300 rounded-lg appearance-none">
-                            <option>Toque para selecionar sua faixa etária</option>
-                            <option value="26">Entre 18 e 34</option>
-                            <option value="40">Entre 35 e 54</option>
-                            <option value="55">Mais de 55 anos</option>
-                        </select>
-                        <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
-                            <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Campo de etnia -->
-                <div>
-                    <label class="block text-gray-700 mb-2">Por favor, escolha sua etnia preferida para o desenho:</label>
-                    <div class="relative">
-                        <select class="w-full px-4 py-2 border border-gray-300 rounded-lg appearance-none">
-                            <option>Toque para selecionar sua etnia preferida</option>
-                            <option value="south_asian">Sul-Asiático (ex.: indiano, paquistanês, cingalês)</option>
-                            <option value="south_east_asian">Sudeste Asiático (ex.: filipino, singapurense, indonésio, tailandês)</option>
-                            <option value="african">Africano/Afro-americano</option>
-                            <option value="caucasian">Caucasiano/Branco</option>
-                            <option value="west_asian">Oeste Asiático (ex.: turco, iraniano)</option>
-                            <option value="hispanic">Hispânico/Latino</option>
-                            <option value="middle_eastern">Oriente Médio (ex.: saudita, iraniano, iraquiano, sírio, israelense)</option>
-                            <option value="native_american">Nativo Americano</option>
-                            <option value="east_asian">Leste Asiático (ex.: chinês, japonês, coreano)</option>
-                            <option value="hispanic">Prefiro não especificar (Deixe o universo decidir)</option>
-                        </select>
-                        <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
-                            <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Campo de signo do zodíaco -->
-                <div>
-                    <label class="block text-gray-700 mb-2">Qual é o seu signo do zodíaco?</label>
-                    <div class="relative">
-                        <select class="w-full px-4 py-2 border border-gray-300 rounded-lg appearance-none">
-                            <option>Toque para selecionar seu signo</option>
-                            <option value="aries">Áries</option>
-                            <option value="taurus">Touro</option>
-                            <option value="gemini">Gêmeos</option>
-                            <option value="cancer">Câncer</option>
-                            <option value="leo">Leão</option>
-                            <option value="virgo">Virgem</option>
-                            <option value="libra">Libra</option>
-                            <option value="scorpio">Escorpião</option>
-                            <option value="sagittarius">Sagitário</option>
-                            <option value="capricorn">Capricórnio</option>
-                            <option value="aquarius">Aquário</option>
-                            <option value="pisces">Peixes</option>
-                        </select>
-                        <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
-                            <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Campo de nome -->
-                <div>
-                    <label class="block text-gray-700 mb-2">Qual o seu nome?</label>
-                    <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg" placeholder="Seu primeiro nome aqui..." required>
-                </div>
-
-                <!-- Campo de e-mail -->
-                <div>
-                    <label class="block text-gray-700 mb-2">Para qual e-mail devo enviar seu desenho?</label>
-                    <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg" placeholder="Seu endereço de e-mail aqui..." required>
-                </div>
-
-                <!-- Mensagem importante -->
-                <div class="text-red-500 text-sm mb-6">
-                    <b>IMPORTANTE:</b> Ao pagar pelo seu pedido, por favor, certifique-se de usar o mesmo endereço de email fornecido acima.
-                </div>
-
-                <!-- Botão de envio -->
-                <button type="submit" class="w-full bg-red-500 text-white py-3 rounded-lg font-bold hover:bg-red-600 transition duration-300">
-                    <span>COMECE A DESENHAR MEU PARCEIRO IDEAL</span>
-                    <span class="block text-sm opacity-70">Eu agora vou me conectar com sua energia</span>
-                </button>
-            </form>
-
-            <!-- Texto de segurança -->
-            <p class="text-gray-500 text-sm mt-6">
-                🔒 Suas informações estão seguras e nunca enviaremos spam
-            </p>
-        </div>
-    </div>
-</div>
-
-<!-- Script para controlar o modal -->
+<!-- Script Utms -->
 <script>
-    function openModal() {
-        document.getElementById('modal').classList.remove('hidden');
+    // Função para adicionar os parâmetros aos links
+    function adicionarParametrosAosLinks() {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        const links = document.querySelectorAll('a');
+
+        links.forEach(link =>  {
+            const href = new URL(link.href);
+            urlParams.forEach((value, key) => {
+                href.searchParams.set(key, value);
+            });
+            link.href = href.toString();
+        });
     }
 
-    function closeModal() {
-        document.getElementById('modal').classList.add('hidden');
-    }
-</script>
+    // Chamar a função ao carregar a página
+    document.addEventListener('DOMContentLoaded', adicionarParametrosAosLinks);
+    </script>
+<!-- Script Utms -->
 
 </body>
 </html>
